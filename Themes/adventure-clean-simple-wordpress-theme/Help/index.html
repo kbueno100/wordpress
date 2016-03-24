@@ -1,0 +1,341 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+
+	<head lang="en">
+	<meta http-equiv="content-type" content="text/html;charset=utf-8">
+	<title>Adventure Clean &amp; Simple WordPress Theme Documentation</title>
+
+	<!-- Framework CSS -->
+	<link rel="stylesheet" href="assets/blueprint-css/screen.css" type="text/css" media="screen, projection">
+	<link rel="stylesheet" href="assets/blueprint-css/print.css" type="text/css" media="print">
+	<link rel="stylesheet" href="assets/blueprint-css/plugins/fancy-type/screen.css" type="text/css" media="screen, projection">
+	<!--[if lt IE 8]>
+		<link rel="stylesheet" href="assets/blueprint-css/ie.css" type="text/css" media="screen, projection">
+	<![endif]-->
+
+	<style type="text/css" media="screen">
+		p, table, hr, .box {
+			margin-bottom:25px;
+		}
+		.box p {
+			margin-bottom:10px;
+		}
+		.center_img {
+			display: block;
+			margin: 0 auto;
+			margin-bottom: 30px;
+		}
+		.required {
+			color: #F00;
+			font-size: 12px;
+			font-weight: bold;	
+		}
+	</style>
+
+	<!-- Syntax Highlighter -->
+	<link rel="stylesheet" type="text/css" href="syntax-highlighter/styles/shCore.css" media="all">
+	<link rel="stylesheet" type="text/css" href="syntax-highlighter/styles/shThemeDefault.css" media="all">
+	</head>
+
+	<body>
+	<div class="container">
+		<h3 class="center alt">&ldquo;Adventure Clean &amp; Simple WordPress Theme &rdquo; Documentation by &ldquo;trendyWebStar&rdquo; v1.0</h3>
+		<hr>
+		<h1 class="center">&ldquo;Adventure Clean &amp; Simple WordPress Theme Documentation&rdquo;</h1>
+		<div class="borderTop">
+			<div class="span-6 colborder info prepend-1">
+				<p class="prepend-top"> <strong> Created: 22/11/2011<br>
+					By: trendyWebStar<br>
+					Email: <a href="mailto:themes@trendywebstar.pl">themes@trendywebstar.com</a> </strong> </p>
+			</div>
+			<!-- end div .span-6 -->
+			
+			<div class="span-12 last">
+				<p class="prepend-top append-0">Thank you for purchasing my theme. If you have any questions that are beyond the scope of this help file, please feel free to email via my user page contact form <a href="http://themeforest.net/user/trendyWebStar" target="_blank">here</a>.</p>
+			</div>
+		</div>
+		<!-- end div .borderTop -->
+		
+		<hr>
+		<h2 id="toc" class="alt">Table of Contents</h2>
+		<ol>
+			<li><a href="#1">Theme overview</a></li>
+			<li><a href="#2">Getting Started</a></li>
+            <li><a href="#3">Working With Sliders</a></li>
+            <li><a href="#4">Portfolio</a></li>
+            <li><a href="#5">Blog</a></li>
+            <li><a href="#6">CSS & Typography</a></li>
+            <li><a href="#7">JavaScript in the Theme</a></li>
+            <li><a href="#8">Shortcodes & Editor Features</a></li>
+            <li><a href="#9">Plugins & Widgets</a></li>
+            <li><a href="#10">Psd files</a></li>
+            <li><a href="#11">Sources, credits and helpfull links</a></li>
+		</ol>
+    <hr>
+		<h2 id="1"><strong>Template overview</strong> - <a href="#toc">top</a></h2>
+		<p>Hi, firstly I would like to thank you for purchasing my template. In this section I`ll briefly introduce Adventure features. So lets start.</p>
+		<p><strong>Template features:</strong></p>
+		<ul>
+		  <li>10 homepage Styles to choose from</li>  
+		  <li>50 background Version</li>
+		  <li>Unlimited background Colors</li>
+		  <li>Tabs</li>
+		  <li>Filterable Portfolio</li>
+		  <li>Working Contact Form</li>
+		  <li>Many more jQuery Features</li>
+		   <li>4 PSD File</li>
+		  
+	  </ul>
+		
+	  <h4>Adventure Works in:</h4>
+	  <ul>
+		<li>Internet Explorer 7</li>
+		<li>Internet Explorer 8</li>
+		<li>Internet Explorer 9</li>
+		<li>Firefox 2</li>
+		<li>Firefox 3</li>
+		<li>Firefox 3.5</li>
+		<li>Firefox 3.6</li>
+		<li>Firefox 4</li>
+		<li>Firefox 5</li>
+		<li>Firefox 6</li>
+		<li>Safari 4</li>
+		<li>Safari 5</li>
+		<li>Opera</li>
+		<li>Chrome 4</li>
+		<li>Chrome 5</li>
+		<li>Chrome 6</li>
+		<li>Chrome 7+</li>
+	  </ul>
+		<p>To make some order in this documentation I`ll start with how to install this theme.</p>
+        <hr>
+	<h2 id="2"><strong>Getting Started</strong> - <a href="#toc">top</a></h2>
+	<h2>Installation &amp; setting up the theme.</h2>
+		<p>After you download the download package "Adventure-download", unzip it.In the folder "Adventure-download" you have 4 folders, "Help","Dummy Content", "PSD" and "Adventure".The theme is located in folder "Adventure".Go to your WordPress site and copy or upload the "Adventure" folder into your themes folder on your site.</p>
+		<p>The path is: your-site-name/wp-content/themes/</p>
+		<p>Go to your admin area of your site, and activate your "Adventure" theme.</p>
+		<p>You should get something like this after you install it:</p>
+		<img src="assets/images/installation.jpg" alt=" " />
+		<p>So you have it installed, if you want to import the dummy content just go to the dummy content folder in your download package and import it via wordpress to your site, using wordpress tools.You go to tools->import.And then choose the the dummy content to import</p>
+	
+		<h3>Setting Up the Homepage</h3>
+		<p>So now you need to set up the homepage.First thing's first.go to settings->reading and choose "Front page displays" as static page, and select which page you want, by the default you should choose "home" </p>
+		<img src="assets/images/homepage-setup.jpg" alt=" " />
+		<h3>Setting Up the Menu</h3>
+		<p>So you have your homepage activated,now you need to activate your menu otherwise it will look messed up.Go to Appearance->Menus, and under Primary Menu menu select Main Menu and under Footer select sidebar menu.I've put in footer the same menu as in sidebar but you can just add new menu and put it in footer, it's like 5 minutes process.</p>
+		<img src="assets/images/menus-setup.jpg" alt=" " />
+		<h3>Setting Up the Slider</h3>
+		<p>So you choose one from 10 homepages styles.Go to Appearance->Themes Options, and under tab "Homepage" choose the sliders.So if you want to upload images for slider go to media->add new, and upload the images.</p>
+		<p>So lets say you want to add images for the Default Simple Slider.After you've uploaded images.Click link "show", and there you have some options. </p>
+		<img src="assets/images/slider-upload.jpg" alt=" " />
+		 <p>And that's pretty much it.It goes the same way for any other slider, except 3D Slider which uses plugin.</p>
+			<p>After you've added images for the slider,go back to homepage tab and  select from which area should slider take images, if you've uploaded like i've showed you, select "Media library unattached images".If you're wondering why there are some other check box to select it's because you  can put images from your portfolio/blog  to be showed in your slider.</p>
+			<p>Just be aware that images are not automatically resized so here's the size table for images used in sliders</p>
+			<ul>
+			<li>Simple Slider- 950x350px</li>
+			<li>Accordion Slider- 1020x550px</li>
+			<li>Nivo Slider- 1020x550px</li>
+			<li>Nivo Thumb Slider- 1020x550px</li>
+			<li>Content Slider- 620x350px</li>
+			<li>Static Slider- 620x350px (Uses Featured Image)</li>
+			<li>Cycle Slider- 950x350px</li>
+			<li>Video Block Homepage- 1020x570px</li>
+			<li>Grid Homepage- 318x150px (one-third),238x150px (one-fourth),118x150px (one-eight),478x150px (one-half)</li>
+			</ul>
+			<p>In Homepage tab after you select slider you want to use, you have additional options for each slider, isn't that cool? :)</p>
+		<hr>
+		<h3>Genreal tab in Theme Options</h3>
+			<p>In "General" tab, you can upload your  header/footer logo, put google analytics code,404 error message, contact and social informations, used in footer widget that displays either  social icons or contact info, or both.Plus you can change default intro page content which displays on each page(you can put this intro page content differently for each page when you edit page.)</p>
+		<hr>		
+		
+		<h2 id="4"><strong>Working With Portfolio</strong> - <a href="#toc">top</a></h2>
+			<p>Portfolio Pages comes with lots of different looks.You have to make one portfolio which later can be displayed in one of 6 unique ways.That means you can't have more that one portfolio templates looks activated in the same time.When you finish building up your portfolio items you can choose how to display it and how many items per page.</p>
+			<img src="assets/images/portfolio-setup.jpg" alt=" " />
+				<h3>Adding Items to Portfolio</h3>
+				<p>It's pretty easy to add new portfolio items, just go to portfolio items->add new, and there you have it.</p>
+			<img src="assets/images/portfolio-items.jpg" alt=" " />
+			<img src="assets/images/portfolio-item.jpg" alt=" " />
+			<hr>
+			<h3>Adding Image/video to Portfolio</h3>
+			<p>To add image to portfolio just choose featured image on every portfolio post, and make it featured image.Recommended size for portfolio images is 710x210px, which will be resized after you choose portfolio look.</p>
+			<p>To add vimeo or youtube video just put video link on portfolio post.</p>
+			<img src="assets/images/portfolio-video.jpg" alt=" " />
+			<hr>
+			<h2 id="5"><strong>Working With Blog</strong> - <a href="#toc">top</a></h2>
+				<img src="assets/images/blog-look.jpg" alt=" " />
+				<p>You can choose one from two blog look to use in your site.You can limit number of post that will display per page.</p>
+				<img src="assets/images/blog-post.jpg" alt=" " />
+				<hr>
+				<h2 id="6"><strong>CSS & Typography</strong> - <a href="#toc">top</a></h2>
+				<p>You can choose one of 20 styles included in this theme, with next update dark version will be available too.</p>
+				<img src="assets/images/typography.jpg" alt=" " />
+				<p>In admin area you can choose which style to use and you can play around with some typography stuff.</p>
+				<hr>
+				<h2 id="7"><strong>JavaScript in the Theme</strong> - <a href="#toc">top</a></h2>
+				<h3>Nivo Slider</h3>
+	<p>This plugin generates the slideshow for you and supports many customizations.  Select which images are used in the slider and how you want it to appear, and the plugin does the rest.More info at <a href="http://nivo.dev7studios.com/">Nivo Slider</a></p>
+	
+	<h3>Cycle Slider</h3>
+	<p>The jQuery Cycle Plugin is a slideshow plugin that supports many different types of transition effects. It supports pause-on-hover, auto-stop, auto-fit, before/after callbacks, click triggers and much more.More info at <a href="http://jquery.malsup.com/cycle/" >Cycle Slider</a></p>
+	
+	<h3>Slides JS</h3>
+	<p>Slides is a crazy simple slideshow plugin for jQuery. With features like looping, auto play, fade or slide transition effects.More info at <a href="http://slidesjs.com/" >Slides JS</a></p>
+	
+	<h3>Masonry - Portfolio Filterable</h3>
+	<p>Masonry is a layout plugin for jQuery. Think of it as the flip side of CSS floats. Whereas floating arranges elements horizontally then vertically, Masonry arranges elements vertically then horizontally according to a grid..More info at <a href="http://desandro.com/resources/jquery-masonry">Filterable</a></p>
+	
+	<h3>Tabify</h3>
+	<p>This Jquery plugin lets you easily create tabbed content. All you need is an ul-element with some li-elements and a couple of related content-divs. The major difference between Tabify and its competitors is its size.More info at <a href="http://www.unwrongest.com/">Tabify</a></p>
+	<h3>Pieacemaker Slider</h3>
+	<p>The Piecemaker V2 is an open source Flash ActionScript 3 image rotator.More info at <a href="http://www.modularweb.net/#/en/piecemaker">Pieacemaker Slider</a>, or read the <a href="http://www.modularweb.net/content/en/piecemaker/documentation.pdf">documentation</a></p>
+	<h3>Kwicks Accordion Slider</h3>
+	<p>Awesome Accordion Slider free for use.More info at <a href="http://www.jeremymartin.name/projects.php?project=kwicks">Kwicks Slider</a></p>
+	<h3>PrettyPhoto</h3>
+	<p>PrettyPhoto - prettyPhoto is a jQuery lightbox clone that support images, videos, flash and iframes. More information can be found at <a href="http://www.no-margin-for-errors.com/projects/prettyphoto-jquery-lightbox-clone/">prettyPhoto</a></p>
+	<hr>
+	<h3>Theme Header</h3>
+	<pre class="brush: html">
+&lt;script type=&quot;text/javascript&quot; src=&quot;&lt;?php echo get_template_directory_uri(); ?&gt;/js/jquery.min.js&quot;&gt;&lt;/script&gt;
+&lt;script type=&quot;text/javascript&quot; src=&quot;&lt;?php echo get_template_directory_uri(); ?&gt;/js/custom.js&quot;&gt;&lt;/script&gt;
+&lt;script type=&quot;text/javascript&quot; src=&quot;&lt;?php echo get_template_directory_uri(); ?&gt;/js/cycle-slider/cycle.js&quot;&gt;&lt;/script&gt;
+&lt;script type=&quot;text/javascript&quot; src=&quot;&lt;?php echo get_template_directory_uri(); ?&gt;/js/slides/slides.min.jquery.js&quot;&gt;&lt;/script&gt;
+&lt;script type=&quot;text/javascript&quot; src=&quot;&lt;?php echo get_template_directory_uri(); ?&gt;/js/tabify/jquery.tabify.js&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;http://cdn.jquerytools.org/1.2.5/tiny/jquery.tools.min.js&quot;&gt;&lt;/script&gt;
+&lt;script type=&quot;text/javascript&quot; src=&quot;&lt;?php echo get_template_directory_uri(); ?&gt;/js/prettyPhoto/jquery.prettyPhoto.js&quot;&gt;&lt;/script&gt;
+&lt;script type=&quot;text/javascript&quot; src=&quot;&lt;?php echo get_template_directory_uri(); ?&gt;/js/twitter/jquery.tweet.js&quot;&gt;&lt;/script&gt;
+&lt;script type=&quot;text/javascript&quot; src=&quot;&lt;?php echo get_template_directory_uri(); ?&gt;/js/scrolltop/scrolltopcontrol.js&quot;&gt;&lt;/script&gt;
+&lt;script type=&quot;text/javascript&quot; src=&quot;&lt;?php echo get_template_directory_uri(); ?&gt;/js/portfolio/filterable.js&quot;&gt;&lt;/script&gt;
+&lt;script type=&quot;text/javascript&quot; src=&quot;&lt;?php echo get_template_directory_uri(); ?&gt;/js/modernizr/modernizr-2.0.3.js&quot;&gt;&lt;/script&gt;
+&lt;script type=&quot;text/javascript&quot; src=&quot;&lt;?php echo get_template_directory_uri(); ?&gt;/js/easing/jquery.easing.1.3.js&quot;&gt;&lt;/script&gt;
+&lt;script type=&quot;text/javascript&quot; src=&quot;&lt;?php echo get_template_directory_uri(); ?&gt;/js/swfobject/swfobject.js&quot;&gt;&lt;/script&gt;
+&lt;script type=&quot;text/javascript&quot; src=&quot;&lt;?php echo get_template_directory_uri(); ?&gt;/js/nivo-slider/jquery.nivo.slider.js&quot;&gt;&lt;/script&gt;
+&lt;script type=&quot;text/javascript&quot; src=&quot;&lt;?php echo get_template_directory_uri(); ?&gt;/js/kwicks/jquery.kwicks-1.5.1.pack.js&quot;&gt;&lt;/script&gt;
+	</pre>
+	<h3>Back to top Issues</h3>
+	<img src="assets/images/to-top.jpg" alt=" " />
+	<p>To make sure that your "back to top" works you must edit "scrolltopcontrol.js" file located in js/scrolltop folder, and check the path of the image:</p>
+<pre class="brush: html"><img src="./wp-content/themes/Adventure/images/top.png" style="width:75px; height:31px" /></pre>
+	
+	<hr>
+	<h2 id="8"><strong>Shortcodes & Editor Features</strong> - <a href="#toc">top</a></h2>	
+	<p>Adventure Theme has  about 60 shortcodes that can be used while working.Lucky for you, you don't have to learn which shortcodes does what  exactly. Just choose a shortcode from your editor list.Plus editor has some extra features you can use while working on your new project.</p>
+	
+	<img src="assets/images/shortcodes.jpg" alt=" " />
+	<img src="assets/images/editor-extras.jpg" alt=" " />
+	<h2>List of major Shortcodes</h2>
+	<ul>
+					<li>One Column-[one_column][/one_column]</li>
+                <li>One Half -[one_half][/one_half]</li>
+                <li>One Half Last-[one_half_last][/one_half_last]</li>
+                <li>One Third-[one_third][/one_third]</li>
+                <li>One Third Last-[one_third_last][/one_third_last]</li>
+                <li>One Third Big-[one_third_big][/one_third_big]</li>
+                <li>One Third Big Last-[one_third_big_last][/one_third_big_last]</li>
+                <li>One Fourth-[one_fourth][/one_fourth]</li>
+                <li>One Fourth Last-[one_fourth_last][/one_fourth_last]</li>
+                <li>One Fifth-[one_fifth][/one_fifth]</li>
+                <li>One Fifth Last-[one_fifth_last][/one_fifth_last]</li>
+                <li>One Sixth-[one_sixth][/one_sixth]</li>
+                <li>One Sixth Last-[one_sixth_last][/one_sixth_last]</li>
+                <li>Inner Content-[inner_content][/inner_content]</li>
+                <li>Inner Content Last-[inner_content_last][/inner_content_last]</li>
+                <li>Horizontal Line-[horizontal_line]</li>
+                <li>Simple Notice-[simple_notice][/simple_notice]</li>
+                <li>Simple Error-[simple_error][/simple_error]</li>
+                <li>Simple Info-[simple_info][/simple_info]</li>
+                <li>Simple Success-[simple_success][/simple_success]</li>
+                <li>Cancel List-[cancel_list][/cancel_list]</li>
+                <li>Check List-[checklist_list][/checklist_list]</li>
+                <li>Check List 2-[check_list][/check_list]</li>
+                <li>Round List-[round_list][/round_list]</li>
+                <li>Facebook Social Link-[social_facebook][/social_facebook]</li>
+                <li>Twitter Social Link-[social_twitter][/social_twitter]</li>
+                <li>RSS Social Link-[social_feed][/social_feed]</li>
+                <li>Contact Phone-[contact_phone][/contact_phone]</li>
+                <li>Contact Fax-[contact_fax][/contact_fax]</li>
+                <li>Contact Email-[contact_email][/contact_email]</li>
+                <li>Button Blue-[button color="blue" size="small" type=" "][/button]</li>
+                <li>Button Orange-[button color="orange" size="small" type=" "][/button]</li>
+                <li>Button Green-[button color="green" size="small" type=" "][/button]</li>
+                <li>Button Pink-[button color="pink" size="small" type=" "][/button]</li>
+                <li>Button Black-[button color="black" size="small" type=" "][/button]</li>
+                <li>Button Yellow-[button color="yellow" size="small" type=" "][/button]</li>
+                <li>Button Red-[button color="red" size="small" type=" "][/button]</li>
+                <li>Button Purple-[button color="purple" size="small" type=" "][/button]</li>
+                <li>Button Dark Blue-[button color="dark-blue" size="small" type=" "][/button]</li>
+                <li>Button Light Blue-[button color="light-blue" size="small" type=" "][/button]</li>	
+				<li>Button Blue Big-[button color="blue" size="big" type=" "][/button]</li>
+                <li>Button Orange Big-[button color="orange" size="big" type=" "][/button]</li>
+                <li>Button Green Big-[button color="green" size="big" type=" "][/button]</li>
+                <li>Button Pink Big-[button color="pink" size="big" type=" "][/button]</li>
+                <li>Button Black Big-[button color="black" size="big" type=" "][/button]</li>
+                <li>Button Yellow Big-[button color="yellow" size="big" type=" "][/button]</li>
+                <li>Button Red Big-[button color="red" size="big" type=" "][/button]</li>
+                <li>Button Purple Big-[button color="purple" size="big" type=" "][/button]</li>
+                <li>Button Dark Blue Big-[button color="dark-blue" size="big" type=" "][/button]</li>
+                <li>Button Light Blue Big-[button color="light-blue" size="big" type=" "][/button]</li>
+                <li>Tab Group-[tabgroup][/tabgroup]</li>
+                <li>Tab-[tab title="Your Title Goes Here"][/tab]</li>
+               
+				
+                <li>Pricing Box Green-[pricing_box title="Starter" price="$10 per month" color="green"][/pricing_box]</li>
+                <li>Pricing Box Orange-[pricing_box title="Starter" price="$10 per month" color="orange"][/pricing_box]</li>
+                <li>Pricing Box Blue-[pricing_box title="Starter" price="$10 per month" color="blue"][/pricing_box]</li>
+                <li>Pricing Box Red-[pricing_box title="Starter" price="$10 per month" color="red"][/pricing_box]</li>
+                <li>Pricing Box Purple-[pricing_box title="Starter" price="$10 per month" color="purple"][/pricing_box]</li>
+                <li>Text Align Left-[text_align_left][/text_align_left]</li>
+				 <li>Image-[image source="" align=""]</li>
+	</ul>
+	<h2 id="9"><strong>Plugins & Widgets</strong> - <a href="#toc">top</a></h2>	
+	<p>Adventure uses some free to use plugins, here's the list</p>
+	<ul>
+	<li>Piecemaker 2 - <a href="http://www.modularweb.net/#/en/piecemaker">link</a></li>
+	<li>Advanced Recent Posts Widget - <a href="http://www.safiweb.co.ke/">link</a></li>
+	<li>Contact Form 7 - <a href="http://contactform7.com/">link</a></li>
+	<li>Twitter Widget Pro - <a href="http://xavisys.com/wordpress-plugins/wordpress-twitter-widget/">link</a></li>
+	</ul>	
+	
+	<h2 id="10"><strong>PSD files</strong> - <a href="#toc">top</a></h2>	
+	<p>I've Included  4 PSD file in "PSD" folder.Layers are named, grouped and slices are named, ready to be export in PNG or JPG file if you want to change graphic element.</p>
+		<ol>
+		<li>01_Homepage.psd</li>
+		<li>02_About_Us.psd</li>
+		<li>03_Portfolio.psd</li>
+		<li>04_Portfolio_Sidebar.psd</li>
+	
+		</ol>	
+<h2 id="11"><strong>Credits and helpfull links</strong> - <a href="#toc">top</a></h2>	
+<h4><strong>Fonts</strong></h4>
+<ul>
+<li><a href="http://www.google.com/webfonts/family?family=Crimson+Text&subset=latin">Crimson Text</a></li>
+<li>Arial (standard)</li>
+<li>Helvetica (standard)</li>
+<li>Other Fonts are taken from google Web Fonts</li>
+</ul>
+<h4><strong>Icons</strong></h4>
+<ul>
+<li><a href="http://www.PremiumPixels.com">Buddy icons PremiumPixels</a></li>
+
+</ul>
+</ul>	<hr>	
+
+		<h2><strong>End of documentation</strong></h2>
+		<hr>
+		<p>Once again, thank you so much for purchasing this theme. As I said at the beginning, I'd be glad to help you if you have any questions relating to this theme. No guarantees, but I'll do my best to assist. If you have a more general question relating to the themes on ThemeForest, you might consider visiting the forums and asking your question in the "Item Discussion" section.</p>
+		<p class="append-bottom alt large"><strong>trendyWebStar</strong></p>
+		<p><a href="#toc">Go To Table of Contents</a></p>
+		<hr class="space">
+		
+
+	</div>
+	<!-- end div .container --> 
+
+	<script type="text/javascript" src="syntax-highlighter/scripts/shCore.js"></script> 
+	<script type="text/javascript" src="syntax-highlighter/scripts/shBrushXml.js"></script> 
+	<script type="text/javascript" src="syntax-highlighter/scripts/shBrushCss.js"></script> 
+	<script type="text/javascript" src="syntax-highlighter/scripts/shBrushJScript.js"></script> 
+	<script type="text/javascript" src="syntax-highlighter/scripts/shBrushPhp.js"></script> 
+	<script type="text/javascript">
+     SyntaxHighlighter.all()
+</script>
+</body>
+</html>

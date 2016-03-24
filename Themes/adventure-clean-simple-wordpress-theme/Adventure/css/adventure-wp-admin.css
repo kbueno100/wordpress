@@ -1,0 +1,73 @@
+#adventure-sidebars div.inside ul li, #adventure-footers div.inside ul li {
+	margin: 3px 0 0 0;
+	padding: 10px;
+	font-size: 12px;
+	font-weight: bold;
+	background: #f8f8f8 url() 5px 11px no-repeat;
+	border: 1px solid #eee;
+}
+
+#adventure-sidebars div.inside ul li.parent, #adventure-footers div.inside ul li.parent {
+	background-image: url(../images/list_parent_bckg.png);
+}
+
+#adventure-sidebars div.inside ul li.placeholder, #adventure-footers div.inside ul li.placeholder {
+	height: 30px;
+	background: #FFFF99;
+	border: 1px dashed #ccc;
+}
+
+#adventure-sidebars div.inside ul li:hover, #adventure-footers div.inside ul li:hover {
+	cursor: move;
+}
+
+#adventure-sidebars input.checkbox, #adventure-product-fields input.checkbox,
+#adventure-footers input.checkbox
+{
+	margin-right: 5px;
+}
+
+
+#adventure-event-fields div.inside label,
+#adventure-portfolio-fields div.inside label,
+#adventure-councillor-fields div.inside label
+{
+	display: inline-block;
+	margin-right: 10px;
+	padding-top: 3px;
+	width: 100px;
+	text-align: right;
+	font-weight: bold;
+	vertical-align: top;
+}
+#adventure-page-fields div.inside label
+{
+	margin-left: 10px;
+	padding-top: 3px;
+	font-weight: bold;
+}
+#adventure-member-fields div.inside input.text,
+#adventure-portfolio-fields div.inside input.text,
+#adventure-portfolio-fields div.inside textarea,
+#adventure-councillor-fields div.inside input.text,
+#adventure-councillor-fields div.inside textarea
+{
+	width: 300px;
+}
+#adventure-page-fields .inside {
+	position: relative;
+	padding: 0;
+	margin: 0;
+	background: #fff;
+	border-bottom: 30px solid #eee;
+}
+#adventure-page-fields div.inside textarea
+{
+	width:98%;
+}
+
+#adventure-page-fields div.inside p.checks {
+	position: absolute;
+	bottom: -30px;
+	left: 0;
+}
